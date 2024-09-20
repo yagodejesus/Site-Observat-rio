@@ -152,6 +152,27 @@ body {
     max-height: 45px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap; /* permite que os elementos se movam para a próxima linha se não houver espaço */
+    justify-content: center; /* centraliza os elementos */
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* empilha os elementos em coluna */
+        align-items: center; /* centraliza horizontalmente */
+    }
+
+    .custom-square {
+        width: 350px; /* mantém a largura fixa */
+        margin: 10px 0; /* adiciona espaço entre os elementos */
+    }
+}
+
+
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;

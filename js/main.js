@@ -37,7 +37,7 @@
         } else {
             $dropdown.off("mouseenter mouseleave");
         }
-    });
+    });    
     
     
     // Back to top button
@@ -78,6 +78,7 @@
         })
     });
 
+
     // logica botões
 
     document.getElementById("button1").addEventListener("click", function(event) {
@@ -86,6 +87,7 @@
         document.querySelector(".button7").classList.toggle("visible");
         document.querySelector(".button8").classList.toggle("visible");
     });
+    
     
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -108,6 +110,8 @@
             }
         }
     });
+
+    
     
 })(jQuery);
 
