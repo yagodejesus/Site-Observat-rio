@@ -44,467 +44,193 @@
 
 
         <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
+        <div class="container-xxl p-5">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
-                    <!-- Logo e titulo esquerdo do site-->
-                    <img src="img/Logo Observatorio.webp" alt="Logo">
+                    <!-- Logo e título esquerdo do site -->
+                    <img src="img/Observatorio.webp" alt="Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-3">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                        <a href="" class="nav-item nav-link">Repositório</a>
+                        <a href="index.html" class="nav-item nav-link active fw-bold">Início</a>
+                        <a href="acoes.html" class="nav-item nav-link fw-bold">Ações</a>
+                        <a href="onde.html" class="nav-item nav-link fw-bold">Onde Atuamos</a>
+                        <a href="apoio.html" class="nav-item nav-link fw-bold">Apoio</a>
+                        <a href="educamangue.html" class="nav-item nav-link fw-bold">EducaMangue</a>
                     </div>
-                    <a href="datamangue.html" class="btn btn-primary py-1 px-4">DataMangue</a>
+                    <a href="datamangue.html" class="btn btn-primary py-1 px-4 fw-bold">DataMangue</a>
                 </div>
             </nav>
-
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Equipe</h1>
-                    <nav aria-label="breadcrumb">
-                    </nav>
-                </div>
-            </div>
         </div>
         <!-- Navbar & Hero End -->
 
-        <!-- Equipe Inicio -->
-        <!-- Inicio Coordenacao Local -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Quem faz o observatório?</h5>
-                    <h1 class="mb-5">Coordenação local</h1>
+        <!-- Conteúdo com imagem à esquerda e carrossel à direita -->
+        <div class="container my-5">
+            <div class="row">
+                <!-- Coluna para a imagem à esquerda -->
+                <div class="col-lg-6 d-flex align-items-center">
+                    <img src="img/Arvore.webp" class="img-fluid" alt="Imagem à esquerda" style="width: 60%;">
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Coordenaco Local/Allan Yu Iwama.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/9927877895574494" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
+                
+                <!-- Coluna para o carrossel à direita -->
+                <div class="col-lg-6">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Depoimentos/1.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/2.png" class="d-block w-100" alt="Imagem 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/3.png" class="d-block w-100" alt="Imagem 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/4.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/5.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/6.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/7.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/8.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/9.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/10.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/11.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/12.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/13.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/14.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/15.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/16.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/17.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/18.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/19.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/20.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/21.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/22.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/23.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/24.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/25.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/26.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/27.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/28.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/29.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/30.png" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Depoimentos/31.png" class="d-block w-100" alt="Imagem 1">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Coordenaco Local/Ana Paula O. Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/3070374396528142" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Coordenaco Local/Indira A. L. Eyzaguirre.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/0155084969051142" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/indieyzaguirre/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Coordenaco Local/Marcus E. B. Fernandes.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/8943067124521530" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href=" https://www.instagram.com/lama_ufpa/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Coordenaco Local/Ana Gabriela.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/6509784072447779" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-        <!-- fim Coordenacao Local -->
-        <!-- Inicio PIBICs -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Pesquisadores de Iniciação Científica (PIBICs)</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores de Iniciação Científica (PIBICs)/Esley lima de sousa.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/7562920513419806" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/esley_sousa/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores de Iniciação Científica (PIBICs)/Júlia Braga.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores de Iniciação Científica (PIBICs)/Yago de Jesus Martins.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/6499363790577513" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/yagodejesus_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores de Iniciação Científica (PIBICs)/Diego Miranda dos Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/4350518751203347" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores de Iniciação Científica (PIBICs)/Nicolas Felipe Ferreira de Sousa.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/4982074552186508" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/niccol4s.f/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <!-- Fim PIBICs -->
-        <!-- Inicio Repórter do Mangue -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Repórteres do Mangue</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Repórteres do mangue/Albino de Mescouto Melo Júnior.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/7562920513419806" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Repórteres do mangue/Fernanda Silva.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/_fernanda.quadros/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Repórteres do mangue/Jaqueline Soares.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://instagram.com/jaqueline.923/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Repórteres do mangue/José Henrique mescouto sousa.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/8894623766249826" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/01henrique_sousa/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Repórteres do mangue/Verônica Melo Cardoso.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Fim Repórter do Mangue -->
-        <!-- Inicio Pesquisadores do Mangue -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Pesquisadores do Mangue</h1>
+        <!-- Fim da seção de conteúdo -->
+
+        <!-- Footer Inicio -->
+   <div class="container-fluid bg-dark text-light footer pt-5 mt- wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <img src="img/Observatorio.webp" alt="Logo" style="width: 600px; margin-top: 100px;" class="col-md-3 float-end">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start fw-bold mb-4" style="color: #856647;">Contato</h4>
+                <p class="mb-2 fw-bold"><i class="fa fa-map-marker-alt me-3"></i>Bragança, Pará, Brasil</p>
+                <p class="mb-2 fw-bold"><i class="fa fa-envelope me-3"></i>observatoriodomangue@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.instagram.com/observatoriodomangue/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.youtube.com/@ObservatoriodoMangue" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.linkedin.com/company/observat-rio-do-mangue/?viewAsMember=true"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.linkedin.com/company/observat-rio-do-mangue/?viewAsMember=true"
+                        target="_blank"><i class="fab fa-tiktok"></i></a>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Anderson B. Monteiro.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/9286045628838216" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Cácio Deniro.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Eric Wagner.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/8011745142526736" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Jaiane silva.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/0651691260564722" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/jay_silvaa4/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Samantha.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/6807918812012722" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Eliza.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-md-3">
+                <h4 class="section-title ff-secondary text-start fw-bold mb-4" style="color: #856647; margin-top: 20%;">Endosso</h4>
+                <img src="img/Decada endosso.webp" alt="Imagem" class="img-fluid float-end">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom fw-bold" href="#">Observatorio do Mangue</a>, Todos os direitos
+                    reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
                 </div>
             </div>
         </div>
-        <!-- Fim Pesquisadores do Mangue -->
-        <!-- Inicio Pesquisadores dos Maretórios -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Pesquisadores dos Maretórios</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores dos Maretórios/Gabrielly Ferreira.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/0475999747335707" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/gabyferreira.a/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores dos Maretórios/Janaina M. De Andrade.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/janaina_matias_1206/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores dos Maretórios/Nathália Yasmin Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/8932532114463502" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/_nathaliayasmin/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores do mangue/Jaiane silva.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="https://lattes.cnpq.br/0651691260564722" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/jay_silvaa4/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores dos Maretórios/Rodrigo Santos da Cunha.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/0535903167296259" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/rodrigocunha9898/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores dos Maretórios/Tayná O Pinto.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/taynaaoliveirap/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fim Pesquisadores dos Maretórios -->
-        <!-- Inicio Pesquisadores colaboradores -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Pesquisadores colaboradores</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Luciane Ferreira da Silva Assis.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Giselle da Silva Silva.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/9241713350596489" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/giselle.ufpa/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Iedo Souza Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/0003944334870038" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Renata Guimarães Oliveira.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/renataguimaoliveira/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Alan Crhistian Quadros Alvão.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Heitor Sena Trindade.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/3989117555359763" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/heitor.trindade01/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Juliana da Silva Matos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Matheus M. dos Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/matheusms___/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Pesquisadores colaboradores/Rebecca Borges.png " alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/9364818659728392" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fim Pesquisadores colaboradores -->
-        <!-- Inicio Colaboradores do EducaMangue -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Colaboradores do EducaMangue</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Colaboradores do EducaMangue/Flavenilson da Costa Freitas.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Colaboradores do EducaMangue/Hevelyn Markus da Silva Barbosa.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="http://lattes.cnpq.br/5235308245036990" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/hevemaia/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Colaboradores do EducaMangue/Luís Alberto de Oliveira Santos.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="https://www.instagram.com/luis_ecoproject_ambiental/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp mx-auto" data-wow-delay="0.1s">
-                        <div class="text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/Pesquisadores/Colaboradores do EducaMangue/Rafael da Silva Damasceno Pereira.png" alt="">
-                            <div class="d-flex justify-content-center mt-3">
-                                <a style="background-color: rgb(200, 200, 200);" class="btn btn-square btn-primary mx-1" href="" target="_blank"><img src="img/Ícones lattes 001.png" alt="Lattes"></a>
-                                <a class="btn btn-square btn-primary mx-1" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fim Colaboradores do EducaMangue -->
+    </div>
+</div>
+<!-- Footer fim -->
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -513,6 +239,7 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -521,6 +248,7 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
